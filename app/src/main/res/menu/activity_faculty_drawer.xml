@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_view_profile"
+                android:icon="@drawable/baseline_account_box_24"
+                android:title="View Profile" />
+			<item
+                android:id="@+id/nav_reset_password"
+                android:icon="@drawable/reset_password_24"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_view_assigned_subject"
+                android:icon="@drawable/ic_view_24dp"
+                android:title="View Assigned Subjects" />
+            <item
+                android:id="@+id/nav_view_student"
+                android:icon="@drawable/ic_view_24dp"
+                android:title="View Student" />
+
+    </group>
+
+    <item android:title="Attendance">
+        <menu>
+            <item
+                android:id="@+id/nav_mark_attendance"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="Mark Attendance" />
+            <item
+                android:id="@+id/nav_upload_attendance"
+                android:icon="@drawable/baseline_upload_24"
+                android:title="Upload Attendance" />
+            <item
+                android:id="@+id/nav_view_attendance"
+                android:icon="@drawable/ic_view_24dp"
+                android:title="View Attendance" />
+        </menu>
+    </item>
+
+</menu>

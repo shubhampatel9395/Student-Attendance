@@ -1,0 +1,25 @@
+Admin:
+	Add Faculty
+	Remove Faculty
+	View Faculty
+	Assign Subject's Faculty
+	View Subject's Faculty
+	Add Student
+	Remove Student
+	View Student
+	View Profile
+	Mark Attendance
+	Upload Attendance
+	View Attendance
+	Reports
+	Logout
+	
+Faculty:
+	View Profile
+	Mark Attendance
+	Upload Attendance
+	View Attendance
+	Reports
+	Logout
+
+	Add Student Update

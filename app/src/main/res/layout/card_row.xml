@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_s"
+    app:cardCornerRadius="@dimen/cardview_default_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearRow"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin="@dimen/margin_m"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="100">
+            <TextView
+                android:id="@+id/txtFirst"
+                android:layout_weight="80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/app_name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnDelete"
+                android:contentDescription="Delete Faculty"
+                android:layout_weight="20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAllCaps="false"
+                android:fontFamily="@font/calibri"
+                android:padding="0dp"
+                android:minHeight="0dp"
+                android:letterSpacing="0"
+                android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+                app:icon="@drawable/baseline_block_24"
+                app:iconGravity="textEnd"
+                app:iconTint="@color/black"
+                app:iconSize="24dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="100">
+
+            <TextView
+            android:id="@+id/txtSecond"
+            android:layout_weight="50"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+            android:id="@+id/txtThird"
+            android:layout_weight="50"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
